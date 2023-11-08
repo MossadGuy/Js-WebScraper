@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 const scrape = async () => {
-    const URL = 'https://www.halkyatirim.com.tr/content/tr';
+    const URL = '';
 
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
